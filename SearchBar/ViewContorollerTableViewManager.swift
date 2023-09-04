@@ -14,6 +14,7 @@ class ViewContorollerTableViewManager:NSObject{
     var tableView:UITableView?
     private let customCellIdentifier = "customCellIdentifier"
     private var items:[RowItem] = []
+
     
     //constructors oluşturuldu
      init(tableView:UITableView) {
@@ -54,3 +55,4 @@ extension ViewContorollerTableViewManager:UITableViewDataSource{
 extension ViewContorollerTableViewManager:UITableViewDelegate{
     
 }
+
